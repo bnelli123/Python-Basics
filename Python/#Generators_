@@ -1,0 +1,33 @@
+#Gener(ators
+def f1():
+    yield 1
+    yield 2
+    yield 3
+
+result = f1()
+print(result)
+print(type(f1()))
+
+for i in f1():
+    print(i)
+
+print(result.__next__())
+print(next(result))
+
+
+def f2():
+    for i in range(10):
+        yield i
+
+result2 = f2()
+
+for i in result2:
+    print(i)
+
+print("==================")
+print(next(result2))
+print(next(result2))
+print(next(result2))
+print(next(result2))
+print(next(result2))
+print(next(result2))

@@ -1,0 +1,14 @@
+3 Types of Variables in Python Class:
+
+1. Instance Variables - Object Level Variables
+2. Static Variables - Class Level Variables
+3. Local Variables - Method Level Variables
+
+3 Types of Methods in Python Class:
+
+1. Instance Methods
+2. Class Methods
+3. Static Methods
+
+
+Current object = the object that is currently calling the method

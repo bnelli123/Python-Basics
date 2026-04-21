@@ -1,0 +1,16 @@
+AWS IAM, Roles, Policies, jq, Azure Notes
+- IAM Role: Temporary permissions assumed by users/services.
+- Trust Policy: Who can assume the role.
+- Permission Policy: What actions are allowed.
+- Explicit Deny > Allow > Implicit Deny.
+- Permissions Boundary: Maximum limit on permissions.
+- jq Basics:
+.field → access field
+[] → iterate array
+{} → construct object
+select() → filter
+- Azure vs AWS:
+Azure uses identities (Service Principal, Managed Identity)
+AWS uses IAM users, roles, policies.
+- S3:
+Bucket vs Object level permissions differ

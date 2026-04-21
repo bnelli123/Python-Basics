@@ -1,0 +1,18 @@
+#Reverse String
+Input_string = input("Enter the String you want to Reverse: ")
+Reverse_string = ""
+
+for ch in Input_string:
+    Reverse_string = ch + Reverse_string
+
+print(Reverse_string)
+
+list1 = [1, 2, 3, 4, 5]
+rev_list = []
+
+for i in list1:
+    rev_list = [i] + rev_list
+
+print(rev_list)
+print(list1[::-1])
+print(reversed(list1))
